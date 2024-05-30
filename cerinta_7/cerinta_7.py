@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 def calculate_survival_rates(data):
     """
-    Funcție pentru calcularea ratei de supraviețuire pentru copii și adulți.
+    Functie pentru calcularea ratei de supravietuire pentru copii si adulti.
     """
     children_survived = 0
     children_total = 0
@@ -10,8 +10,8 @@ def calculate_survival_rates(data):
     adults_total = 0
 
     for row in data:
-        age = row[6]  # Age is in the 6th column (index 5)
-        survived = row[1]  # Survived is in the 2nd column (index 1)
+        age = row[6]
+        survived = row[1]
         
         try:
             age_value = float(age)
@@ -34,7 +34,7 @@ def calculate_survival_rates(data):
 
 def load_data(file_path):
     """
-    Funcție pentru încărcarea datelor dintr-un fișier CSV.
+    Functie pentru incarcarea datelor dintr-un fisier CSV.
     """
     data = []
     with open(file_path, 'r') as file:
@@ -47,7 +47,7 @@ def load_data(file_path):
 
 def plot_survival_rates(children_survival_rate, adults_survival_rate):
     """
-    Funcție pentru crearea unui grafic care să evidențieze rata de supraviețuire pentru copii și adulți.
+    Functie pentru crearea unui grafic care sa evidentieze rata de supravietuire pentru copii si adulti.
     """
     categories = ['Copii', 'Adulti']
     survival_rates = [children_survival_rate, adults_survival_rate]
@@ -60,16 +60,13 @@ def plot_survival_rates(children_survival_rate, adults_survival_rate):
     plt.savefig('survival_rates.png')
     plt.close()
 
-# 1. Încărcarea Datelor
+# 1. Incarcarea datelor
 file_path = 'train.csv'
 headers, data = load_data(file_path)
 
-# 2. Calcularea Ratei de Supraviețuire
+# 2. Calcularea ratei de supravietuire
 children_survival_rate, adults_survival_rate = calculate_survival_rates(data)
 
-# 3. Crearea Graficului
+# 3. Crearea graficului
 plot_survival_rates(children_survival_rate, adults_survival_rate)
 
-# Afișarea ratelor în consolă pentru verificare
-print(f'Rata de supraviețuire pentru copii: {children_survival_rate:.2f}%')
-print(f'Rata de supraviețuire pentru adulți: {adults_survival_rate:.2f}%')

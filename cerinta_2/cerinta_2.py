@@ -44,7 +44,7 @@ def analyze_passenger_data(file_path, output_file):
     male_percentage = (male_passengers / total_passengers) * 100
     female_percentage = (female_passengers / total_passengers) * 100
 
-    # Salvam rezultatele în fisierul specificat
+    # Salvam rezultatele in fisierul specificat
     with open(output_file, 'w') as output:
         output.write(f"Procentul persoanelor care au supravietuit: {survival_percentage:.2f}%\n")
         output.write(f"Procentul persoanelor care nu au supravietuit: {not_survival_percentage:.2f}%\n")

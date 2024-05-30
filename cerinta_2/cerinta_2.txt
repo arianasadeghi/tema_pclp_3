@@ -1,0 +1,8 @@
+Procentul persoanelor care au supravietuit: 38.38%
+Procentul persoanelor care nu au supravietuit: 61.62%
+Procentul pasagerilor pentru fiecare clasa:
+  Clasa 1: 24.24%
+  Clasa 2: 20.65%
+  Clasa 3: 55.11%
+Procentul barbatilor: 64.76%
+Procentul femeilor: 35.24%

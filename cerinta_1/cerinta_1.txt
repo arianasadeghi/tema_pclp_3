@@ -1,0 +1,34 @@
+Numarul de coloane: 12
+
+Tipurile datelor din fiecare coloana:
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+Numarul de valori lipsa pentru fiecare coloana:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+
+Numarul de linii: 891
+Numarul de linii duplicate: 0

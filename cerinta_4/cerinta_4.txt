@@ -1,0 +1,15 @@
+Coloana 'Age':
+  Numarul total de valori lipsa: 177
+  Procentul total de valori lipsa: 19.87%
+  Procentul de valori lipsa pentru clasa 'Survived': 15.20%
+  Procentul de valori lipsa pentru clasa 'Not Survived': 22.77%
+Coloana 'Cabin':
+  Numarul total de valori lipsa: 687
+  Procentul total de valori lipsa: 77.10%
+  Procentul de valori lipsa pentru clasa 'Survived': 60.23%
+  Procentul de valori lipsa pentru clasa 'Not Survived': 87.61%
+Coloana 'Embarked':
+  Numarul total de valori lipsa: 2
+  Procentul total de valori lipsa: 0.22%
+  Procentul de valori lipsa pentru clasa 'Survived': 0.58%
+  Procentul de valori lipsa pentru clasa 'Not Survived': 0.00%
